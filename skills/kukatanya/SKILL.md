@@ -1,6 +1,6 @@
 ---
 name: kukatanya
-description: "Grill ide dalam bahasa Indonesia sambil mencatat glossary dan ADR. Gunakan saat user meminta kukatanya atau sesi tanya sambil mendokumentasikan keputusan."
+description: "Tanya jawab mendalam tentang ide dalam bahasa Indonesia sambil mencatat glossary dan ADR. Gunakan saat user meminta kukatanya atau sesi tanya sambil mendokumentasikan keputusan."
 ---
 
 # Kukatanya
@@ -221,6 +221,6 @@ Jangan memakai label lain, dan jangan memakai dua label sekaligus. Ragu antara `
 
 ## Aktivasi skill
 
-Skill ini aktif otomatis saat deskripsi cocok dengan permintaan user. User juga bisa memanggilnya langsung dengan `/skill:kukatanya`. Berkas ini tidak memasang `disable-model-invocation`. Sebut cara aktivasi di laporan sesi. Jangan mengubah kebijakan aktivasi tanpa menyebutkannya di laporan.
+Skill ini aktif otomatis saat deskripsi cocok dengan permintaan user. Di agent yang mendukung perintah skill, user juga bisa memanggilnya langsung, misalnya `/skill:kukatanya`. Berkas ini tidak memasang `disable-model-invocation`. Sebut cara aktivasi di laporan sesi. Jangan mengubah kebijakan aktivasi tanpa menyebutkannya di laporan.
 
 Selama interview, hanya ubah dokumen istilah dan keputusan yang disepakati. Implementasi tetap langkah terpisah yang membutuhkan permintaan user, setelah shared understanding tercapai.

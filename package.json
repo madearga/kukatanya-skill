@@ -1,0 +1,7 @@
+{
+  "name": "kukatanya-skill",
+  "version": "0.2.0",
+  "description": "Skill kukatanya: tanya jawab mendalam tentang ide dalam bahasa Indonesia sambil mencatat glossary dan ADR.",
+  "keywords": ["pi-package"],
+  "license": "UNLICENSED"
+}
